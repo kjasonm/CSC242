@@ -12,11 +12,16 @@ int main()
 	cin >> radius; 
 	const double PI = 3.14159;
 	double area;
+	double perimeter;
 
 	cout << "The area of a circle with radius " << radius ;
 	//Calculate the area of the circle
 	area = PI * pow(radius, 2);
 	cout << " is " << area << ".";
+	cout << "\nThe Perimeter is ";
+	perimeter = 2.0 * radius * PI;
+	cout << perimeter << ".";
+
 
 	return 0;
 }
